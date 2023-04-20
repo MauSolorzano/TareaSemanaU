@@ -1,0 +1,43 @@
+.banner{
+    background-color: cornflowerblue;
+    background-size: cover;
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    color: white;
+    font-family: "Gibson Regular",Tahoma,Helvetica,sans-serif;
+}
+
+.main{
+    margin: 2%;
+}
+
+.precio{
+    color: blue;
+    font-weight: bold;
+}
+
+.card-img-top{
+    margin-top: 3%;
+}
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .footer-text {
+    font-size: 16px;
+    color: #aebad1;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .footer-copy {
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+    margin-top: 20px;
+  }
+  

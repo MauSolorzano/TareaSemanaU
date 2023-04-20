@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="EstilosViajes.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="banner">Cheap Flights <img src="IMG/icon/planes.png" alt=""></h1>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a href="Inicio.html" class="nav-link active" aria-current="page">Inicio</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+          aria-expanded="false">Viajes</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="Viajes.html">Disponibilidad</a>
+          <a class="dropdown-item" href="#">Test</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Agenda</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a href="Contactenos.html" class="nav-link">Contactenos</a>
+      </li>
+    </ul>
+  </header>
+  <main>
+    <div class="main">
+      <div class="row justify-content-center align-items-center">
+        <div class="card col-3" style="width:400px">
+          <img class="card-img-top" src="IMG/DestinosTuristicos/alaska.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Alaska</h4>
+            <p class="card-text">Desde <span class="precio">$499</span></p>
+
+            <!--Disponibilidad-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal1">
+              Ver disponibilidad
+            </button>
+
+            <div class="modal" id="myModal1">
+              <div class="modal-dialog">
+
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Alaska</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <div class="modal-body">
+                    <p>Clase economica: <span class="precio">$499</span></p>
+                    <p>Primera clase: <span class="precio">$699</span></p>
+                    <p>Clase ejecutiva: <span class="precio">$599</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card col-3" style="width:400px">
+          <img class="card-img-top" src="IMG/DestinosTuristicos/cancun.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Cancun</h4>
+            <p class="card-text">Desde <span class="precio">$179</span></p>
+            <!--Disponibilidad-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal2">
+              Ver disponibilidad
+            </button>
+
+            <div class="modal" id="myModal2">
+              <div class="modal-dialog">
+
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Cancun</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <div class="modal-body">
+                    <p>Clase economica: <span class="precio">$179</span></p>
+                    <p>Primera clase: <span class="precio">$399</span></p>
+                    <p>Clase ejecutiva: <span class="precio">$279</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card col-3" style="width:400px">
+          <img class="card-img-top" src="IMG/DestinosTuristicos/LasVegas.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Las Vegas</h4>
+            <p class="card-text">Desde <span class="precio">$350</span></p>
+            <!--Disponibilidad-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal3">
+              Ver disponibilidad
+            </button>
+
+            <div class="modal" id="myModal3">
+              <div class="modal-dialog">
+
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Las Vegas</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <div class="modal-body">
+                    <p>Clase economica: <span class="precio">$350</span></p>
+                    <p>Primera clase: <span class="precio">$799</span></p>
+                    <p>Clase ejecutiva: <span class="precio">$550</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center align-items-center">
+        <div class="card col-3" style="width:400px">
+          <img class="card-img-top" src="IMG/DestinosTuristicos/orlando.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Orlando</h4>
+            <p class="card-text">Desde <span class="precio">$299</span></p>
+            <!--Disponibilidad-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal4">
+              Ver disponibilidad
+            </button>
+
+            <div class="modal" id="myModal4">
+              <div class="modal-dialog">
+
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Orlando</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <div class="modal-body">
+                    <p>Clase economica: <span class="precio">$299</span></p>
+                    <p>Primera clase: <span class="precio">$599</span></p>
+                    <p>Clase ejecutiva: <span class="precio">$499</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card col-3" style="width:400px">
+          <img class="card-img-top" src="IMG/DestinosTuristicos/puntacana.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Punta Cana</h4>
+            <p class="card-text">Desde <span class="precio">$399</span></p>
+            <!--Disponibilidad-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal5">
+              Ver disponibilidad
+            </button>
+
+            <div class="modal" id="myModal5">
+              <div class="modal-dialog">
+
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Punta Cana</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <div class="modal-body">
+                    <p>Clase economica: <span class="precio">$399</span></p>
+                    <p>Primera clase: <span class="precio">$699</span></p>
+                    <p>Clase ejecutiva: <span class="precio">$499</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card col-3" style="width:400px">
+          <img class="card-img-top" src="IMG/DestinosTuristicos/roma.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Roma</h4>
+            <p class="card-text">Desde <span class="precio">$299</span></p>
+            <!--Disponibilidad-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal6">
+              Ver disponibilidad
+            </button>
+
+            <div class="modal" id="myModal6">
+              <div class="modal-dialog">
+
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Roma</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <div class="modal-body">
+                    <p>Clase economica: <span class="precio">$299</span></p>
+                    <p>Primera clase: <span class="precio">$599</span></p>
+                    <p>Clase ejecutiva: <span class="precio">$399</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer class="footer bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <p class="footer-text">Encuentra las mejores ofertas de vuelos en nuestra página. ¡No pierdas la oportunidad de viajar por el mundo a precios increíbles!</p>
+        </div>
+        <div class="col-md-4">
+          <p class="footer-text">¡Suscríbete a nuestro boletín y mantente al tanto de nuestras promociones exclusivas!</p>
+        </div>
+        <div class="col-md-4">
+          <p class="footer-text">¿Necesitas ayuda? Contáctanos en nuestro servicio de atención al cliente disponible las 24 horas, los 7 días de la semana.</p>
+        </div>
+      </div>
+      <hr>
+      <p class="footer-copy">&copy; 2023 Cheap Flights. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
