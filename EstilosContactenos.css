@@ -8,7 +8,13 @@
     color: white;
     font-family: "Gibson Regular",Tahoma,Helvetica,sans-serif;
 }
-
+.nav {
+  background-color:azure; /* Color de fondo del menú */
+  color: aqua; /* Color de texto del menú */
+  font-family: Arial, sans-serif; /* Fuente del texto del menú */
+  padding: 10px; /* Espacio alrededor del menú */
+  text-align: center; /* Centra el menú horizontalmente */
+}
 .main{
     margin: 2%;
 }

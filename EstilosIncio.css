@@ -56,6 +56,10 @@
     background-color:lightseagreen; /* Color de fondo cuando se pasa el ratón por encima del enlace */
   }
 
+  .CardsMargin{
+    padding-top: 20px;
+  }
+
  /*Pie de pagina*/
  .footer {
     padding-top: 50px;
